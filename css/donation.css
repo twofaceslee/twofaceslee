@@ -1,0 +1,36 @@
+.github-section {
+    background-color: #1a1a1a;
+    padding: 4rem 2rem;
+}
+
+.github-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.github-description {
+    margin-top: 2rem;
+}
+
+.github-description p {
+    color: #ffffff;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.github-link {
+    display: inline-block;
+    color: #58a6ff;
+    font-size: 1.1rem;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    margin: 1rem 0 3rem;
+    border: 1px solid #58a6ff;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+
+.github-link:hover {
+    background-color: #58a6ff;
+    color: #ffffff;

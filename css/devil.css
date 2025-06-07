@@ -1,0 +1,122 @@
+/* 사법 리스크 섹션 */
+.law-risk-section {
+    background-color: #1c1c1c;
+    padding: 4rem 2rem;
+}
+
+.law-risk-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.law-risk-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.law-risk-item {
+    background: rgba(40, 40, 40, 0.9);
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.law-risk-item h3 {
+    color: #ff3333;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.law-risk-item p {
+    color: #e0e0e0;
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    line-height: 1.6;
+}
+
+.law-risk-item ul {
+    list-style: none;
+    padding: 0;
+}
+
+.law-risk-item li {
+    color: #cccccc;
+    font-size: 1.1rem;
+    margin-bottom: 0.8rem;
+    padding-left: 1.5rem;
+    position: relative;
+    line-height: 1.5;
+}
+
+.law-risk-item li::before {
+    content: '•';
+    color: #ff3333;
+    position: absolute;
+    left: 0;
+    font-size: 1.5rem;
+}
+
+/* 망언집 섹션 */
+.thoughtless-word-section {
+    background-color: #141414;
+    padding: 6rem 2rem 4rem;
+}
+
+.thoughtless-word-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 4rem;
+}
+
+.word-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    gap: 3rem;
+    margin-top: 3rem;
+}
+
+.word-item {
+    color: #ffffff;
+}
+
+.word-item h3 {
+    color: #ff3333;
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+}
+
+.word-item div {
+    border-left: 2px solid #ff3333;
+    padding-left: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.word-item div p:first-child {
+    color: #ffffff;
+    margin-bottom: 0.5rem;
+    line-height: 1.5;
+}
+
+.word-item div span {
+    display: block;
+    color: #888888;
+    font-size: 0.9rem;
+    margin-bottom: 0.3rem;
+}
+
+.word-item div p:last-child {
+    color: #aaaaaa;
+    font-size: 0.9rem;
+}
+
+.word-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
